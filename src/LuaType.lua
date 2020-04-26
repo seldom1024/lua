@@ -14,24 +14,55 @@
 --- table	    Lua 中的表（table）其实是一个"关联数组"（associative arrays），数组的索引可以是数字、字符串或表类型。在 Lua 里，table 的创建是通过"构造表达式"来完成，最简单构造表达式是{}，用来创建一个空表。
 ---
 
+-- 定义判断函数
 function printType(tp)
-    --print(tp)
     print(type(tp))
 end
 
-printType("Hello");
-printType(10);
-printType(10.4);
-printType(10.4 * 3);
-printType(print);
-printType(true);
-printType(nil);
+printType("Hello")
+printType(10)
+printType(10.4)
+printType(10.4 * 3)
+printType(print)
+printType(true)
+printType(nil)
 printType(type(x))
----string
----number
----number
----number
----function
----boolean
----nil
----string
+printType({"key1", 70, "key2", "Hello"})
+--- string
+--- number
+--- number
+--- number
+--- function
+--- boolean
+--- nil
+--- string
+--- table
+
+
+--- 对于全局变量和 table，nil 还有一个"删除"作用，
+--- 给全局变量或者 table 表里的变量赋一个 nil 值，等同于把它们删掉，
+--- 执行下面代码就知：
+tab1 = { key1 = "val1", key2 = "val2", "val3" }
+for k, v in pairs(tab1) do
+    print(k .. " - " .. v)
+end
+
+tab1.key1 = nil
+for k, v in pairs(tab1) do
+    print(k .. " - " .. v)
+end
+
+
+print("able 不会固定长度大小，有新数据添加时 table 长度会自动增长，没初始的 table 都是 nil。")
+--- table 不会固定长度大小，有新数据添加时 table 长度会自动增长，没初始的 table 都是 nil。
+a3 = {}
+for i = 1, 10 do
+    a3[i] = i
+end
+
+a3["key"] = "val"
+print(a3["key"])
+print(a3["none"])
+print(a3[1])
+print(a3[10])
+print(a3)
