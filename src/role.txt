@@ -1,0 +1,10 @@
+ title:人经历风浪是会变得更强，可是船不同，日积月累的只有伤痛。  isDelete:  viewNum:0  url:https://www.zq1024.cn:8443/upload/bg/836612.jpg  content:测试  bannerId:1 
+ title:我没有梦想，但是我能保护！  isDelete:  viewNum:0  url:https://www.zq1024.cn:8443/upload/bg/eypvmo.jpg  content:测试  bannerId:2 
+ title:比任何人都要了解自己，比任何人都要关爱自己。喜欢上这样的人，并没有什么奇怪的呢  isDelete:  viewNum:0  url:https://www.zq1024.cn:8443/upload/bg/kwvg6m.jpg  content:测试  bannerId:3 
+ title:世界上没有一个人能代替另一个人。  isDelete:  viewNum:0  url:https://www.zq1024.cn:8443/upload/bg/oxv8pm.jpg  content:测试  bannerId:4 
+ title:你愿意陪我走到地狱的底端吗？  isDelete:  viewNum:0  url:https://www.zq1024.cn:8443/upload/bg/p8v5k.jpg  bannerId:5 
+ title:欺骗世界，欺骗最初的你。  isDelete:  viewNum:0  url:https://www.zq1024.cn:8443/upload/bg/yk89.jpg  bannerId:6 
+ isArticle:  title:佛山三水校区举办第十六期辅导员论坛  isDelete:  viewNum:0  url:http://news.gdufe.edu.cn/media/image/2020/01/2020011016f685.jpg.b  content:60  bannerId:7 
+ isArticle:  title:霜降后的一天  isDelete:  viewNum:0  url:https://zq1024.cn:8443/upload/news/sj2.jpg  content:71  bannerId:8 
+ isArticle:  title:我校师生制作短视频、广播剧声援战“疫”  isDelete:  viewNum:0  url:http://news.gdufe.edu.cn/media/image/2020/02/20200213dc8581.jpg.b  content:23  bannerId:9 
+ title:22  isDelete:  viewNum:2  url:22  content:22  bannerId:10 
